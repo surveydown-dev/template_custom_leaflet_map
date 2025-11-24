@@ -1,26 +1,25 @@
 ---
-# General Settings
-format: html
-echo: false
-warning: false
+# The YAML header specifies several settings for the survey but is not required.
+# A full list of settings can be found under _survey/settings.yml directory.
 
-# Theme Settings
-theme: default
-barposition: top
-footer-left: "Made with [surveydown](https://surveydown.org)"
-footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/surveydown-dev/template_custom_leaflet_map)'
+theme-settings:
+  theme: default
+  barposition: top
+  footer-left: "Made with [surveydown](https://surveydown.org)"
+  footer-right: '[<i class="bi bi-github"></i> Source Code](https://github.com/surveydown-dev/template_custom_leaflet_map)'
 
-# Survey Settings
-use-cookies: false
-auto-scroll: false
-rate-survey: false
-system-language: en
-highlight-unanswered: true
-highlight-color: blue
-capture-metadata: true
-all-questions-required: false
-required-questions:
-  - state_selection
+survey-settings:
+  show-previous: false
+  use-cookies: false
+  auto-scroll: false
+  rate-survey: false
+  system-language: en
+  highlight-unanswered: true
+  highlight-color: blue
+  capture-metadata: true
+  all-questions-required: false
+  required-questions:
+    - state_selection
 ---
 
 ```{r}
@@ -38,10 +37,6 @@ sd_output("state_selection", type = "question")
 ```
 
 ### You live in: `r sd_output("state_selection", type = "value")`
-
-```{r}
-sd_next()
-```
 
 --- end
 
