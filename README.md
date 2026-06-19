@@ -4,6 +4,14 @@ A template of a custom leaflet map question using `sd_question_custom()`.
 
 Try the live survey: https://surveydown-custom-leaflet-map.hf.space
 
+### 🎬 Video
+
+A video walkthrough of this template:
+
+<video src="https://github.com/surveydown-dev/template_custom_leaflet_map/raw/main/video-recording.mp4" controls width="100%"></video>
+
+[▶ Watch the walkthrough](https://github.com/surveydown-dev/template_custom_leaflet_map/raw/main/video-recording.mp4)
+
 ### Template page
 
 https://surveydown.org/templates/custom_leaflet_map
