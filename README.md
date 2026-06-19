@@ -1,16 +1,12 @@
+# Template - Custom Leaflet Map
+
 A template of a custom leaflet map question using `sd_question_custom()`.
 
-### 🟢 Demo
+### See it in action
 
-Try the live survey: https://surveydown-custom-leaflet-map.hf.space
-
-### 🎬 Walkthrough Recording
+Play with the [**Live demo**](https://surveydown-custom-leaflet-map.share.connect.posit.cloud) or watch the **Walkthrough recording:**
 
 [![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_custom_leaflet_map@main/video-recording.mp4)
-
-### Template page
-
-https://surveydown.org/templates/custom_leaflet_map
 
 ### Create this template
 
@@ -23,6 +19,8 @@ surveydown::sd_create_survey(
 )
 ```
 
-### Documentation
+### Learn more
 
-[Custom questions: leaflet map](https://surveydown.org/docs/custom-questions#leaflet-map-example) · [Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template)
+- [Template page - Custom Leaflet Map](https://surveydown.org/templates/custom_leaflet_map)
+- [Document page - Custom questions: leaflet map](https://surveydown.org/docs/custom-questions#leaflet-map-example)
+- [Document page - Start with a template](https://surveydown.org/docs/getting-started#start-with-a-template)
