@@ -8,8 +8,6 @@ Try the live survey: https://surveydown-custom-leaflet-map.hf.space
 
 [![Walkthrough recording](video-thumbnail.png)](https://cdn.jsdelivr.net/gh/surveydown-dev/template_custom_leaflet_map@main/video-recording.mp4)
 
-*Click the image above to play the recording.*
-
 ### Template page
 
 https://surveydown.org/templates/custom_leaflet_map
